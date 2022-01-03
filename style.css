@@ -11,7 +11,7 @@ body {
     max-height: 5vh;
     border: 1px solid white;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     gap: 2vw;
     margin-left: 15vw;
 }
@@ -22,12 +22,13 @@ body {
     font-weight: bolder;
     width: 15vw;
     border: 1px solid white;
-    align-self: flex-start;
-    margin-right: 22vw;
+    align-self: center;
+    margin-right: 20vw;
 }
 
 .link {
     align-self: center;
+    
 }
 
 .hero.box {
@@ -42,6 +43,12 @@ body {
 }
 
 .hero.text {
+    border: 1px solid white;
+    width: 30vw;
+    gap: 5px;
+}
+
+.hero.imagebox {
     border: 1px solid white;
     width: 30vw;
     gap: 5px;
