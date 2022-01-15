@@ -20,7 +20,7 @@ body {
 }
 
 .header.logo {
-    max-width: fit-content
+    flex: 4;
 
 }
 
