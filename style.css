@@ -10,7 +10,8 @@ body {
     border: 1px solid white;
     display: flex;
     margin-left: 15vw;
-    height: 30px
+    height: 30px;
+    line-height: 30px;
 }
 
 .navigation div {
@@ -25,7 +26,4 @@ body {
 }
 
 .header.link {
-    text-align: right;
-    flex-direction: column;
-    align-content: flex-end;
 }
